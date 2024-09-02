@@ -357,8 +357,21 @@ template&lt;typename MODULE &gt; </div>
 <li>1: 有効 </li>
 </ul>
 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">periodicTau</td><td>周期時間[秒]。 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">activeTau</td><td>アクティブ時間[秒]。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">periodicTau</td><td>周期時間[秒]。 <ul>
+<li>2~63: 2~63[秒](2秒単位) </li>
+<li>64~959: 64~959[秒](30秒単位) </li>
+<li>960~1919: 960~1919[秒](1分単位) </li>
+<li>1920~19199: 1920~19199[秒](10分単位) </li>
+<li>19200~115199: 19200~115199[秒](1時間単位) </li>
+<li>115200~1151999: 115200~1151999[秒](10時間単位) </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">activeTau</td><td>アクティブ時間[秒]。 <ul>
+<li>2~63: 2~63[秒](2秒単位) </li>
+<li>64~959: 64~1919[秒](1分単位) </li>
+<li>1920~11519: 960~11519<a href="1/10時間単位">秒</a> </li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>

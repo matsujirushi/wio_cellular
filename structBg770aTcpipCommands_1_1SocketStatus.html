@@ -81,7 +81,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 公開変数類</h2></td></tr>
 <tr class="memitem:ad20fb76c1909b3fa221d4ff1bb5f6ffc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBg770aTcpipCommands_1_1SocketStatus.html#ad20fb76c1909b3fa221d4ff1bb5f6ffc">connectId</a></td></tr>
-<tr class="memdesc:ad20fb76c1909b3fa221d4ff1bb5f6ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続ID 0~11  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#ad20fb76c1909b3fa221d4ff1bb5f6ffc">[詳解]</a><br /></td></tr>
+<tr class="memdesc:ad20fb76c1909b3fa221d4ff1bb5f6ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続ID  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#ad20fb76c1909b3fa221d4ff1bb5f6ffc">[詳解]</a><br /></td></tr>
 <tr class="separator:ad20fb76c1909b3fa221d4ff1bb5f6ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf4e54819b339678c2cfbd689d4e2ba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBg770aTcpipCommands_1_1SocketStatus.html#addf4e54819b339678c2cfbd689d4e2ba">serviceType</a></td></tr>
 <tr class="memdesc:addf4e54819b339678c2cfbd689d4e2ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">サービスタイプ  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#addf4e54819b339678c2cfbd689d4e2ba">[詳解]</a><br /></td></tr>
@@ -99,7 +99,7 @@ $(function() {
 <tr class="memdesc:ab6687d7c915c2e4c739a817b12b45ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケット状態  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#ab6687d7c915c2e4c739a817b12b45ee7">[詳解]</a><br /></td></tr>
 <tr class="separator:ab6687d7c915c2e4c739a817b12b45ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9b9c0ec455acec4a14e681129ebaaa7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBg770aTcpipCommands_1_1SocketStatus.html#aa9b9c0ec455acec4a14e681129ebaaa7">cid</a></td></tr>
-<tr class="memdesc:aa9b9c0ec455acec4a14e681129ebaaa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDPコンテキストID 1~5  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#aa9b9c0ec455acec4a14e681129ebaaa7">[詳解]</a><br /></td></tr>
+<tr class="memdesc:aa9b9c0ec455acec4a14e681129ebaaa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDPコンテキストID  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#aa9b9c0ec455acec4a14e681129ebaaa7">[詳解]</a><br /></td></tr>
 <tr class="separator:aa9b9c0ec455acec4a14e681129ebaaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64e78845909e2b2c85f444dfcd00c07b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBg770aTcpipCommands_1_1SocketStatus.html#a64e78845909e2b2c85f444dfcd00c07b">serverId</a></td></tr>
 <tr class="memdesc:a64e78845909e2b2c85f444dfcd00c07b"><td class="mdescLeft">&#160;</td><td class="mdescRight">サーバーの接続ID serviceTypeが"TCP INCOMING"のときのみ有効。  <a href="structBg770aTcpipCommands_1_1SocketStatus.html#a64e78845909e2b2c85f444dfcd00c07b">[詳解]</a><br /></td></tr>
@@ -178,7 +178,10 @@ template&lt;typename MODULE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>PDPコンテキストID 1~5 </p>
+<p>PDPコンテキストID </p>
+<ul>
+<li>1~5 </li>
+</ul>
 
 </div>
 </div>
@@ -196,7 +199,10 @@ template&lt;typename MODULE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>接続ID 0~11 </p>
+<p>接続ID </p>
+<ul>
+<li>0~11 </li>
+</ul>
 
 </div>
 </div>
@@ -233,6 +239,9 @@ template&lt;typename MODULE &gt; </div>
 </div><div class="memdoc">
 
 <p>ローカルポート番号 </p>
+<ul>
+<li>0~65535 </li>
+</ul>
 
 </div>
 </div>
@@ -251,6 +260,9 @@ template&lt;typename MODULE &gt; </div>
 </div><div class="memdoc">
 
 <p>リモートポート番号 </p>
+<ul>
+<li>0~65535 </li>
+</ul>
 
 </div>
 </div>
