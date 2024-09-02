@@ -437,7 +437,7 @@ template&lt;typename MODULE &gt; </div>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると読み捨てます。 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。0を指定すると受信しません。 </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
@@ -510,7 +510,7 @@ template&lt;typename MODULE &gt; </div>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると読み捨てます </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。0を指定すると受信しません。 </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。nullptrを指定すると値を代入しません。 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
