@@ -69,6 +69,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Quectel BG770AモジュールのSIM関連コマンド  
+ <a href="classBg770aSimRelatedCommands.html#details">[詳解]</a></p>
+
 <p><code>#include &lt;Bg770aSimRelatedCommands.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -89,7 +92,19 @@ $(function() {
 <tr class="memdesc:a79760a32c71a1f09dde7edc471bba716"><td class="mdescLeft">&#160;</td><td class="mdescRight">SIM挿入ステータスを取得  <a href="classBg770aSimRelatedCommands.html#a79760a32c71a1f09dde7edc471bba716">[詳解]</a><br /></td></tr>
 <tr class="separator:a79760a32c71a1f09dde7edc471bba716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">関数詳解</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><h3>template&lt;typename MODULE&gt;<br />
+class Bg770aSimRelatedCommands&lt; MODULE &gt;</h3>
+
+<p>Quectel BG770AモジュールのSIM関連コマンド </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">MODULE</td><td>モジュールのクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Quectel BG770AモジュールのSIM関連コマンドです。 </p>
+</div><h2 class="groupheader">関数詳解</h2>
 <a id="a3dab8985432f6ef2e466bfa72e328d0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3dab8985432f6ef2e466bfa72e328d0d">&#9670;&nbsp;</a></span>getIMSI()</h2>
 
@@ -119,13 +134,13 @@ template&lt;typename MODULE &gt; </div>
 <p>IMSIを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">imsi</td><td>IMSI(international mobile subscriber identity) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">imsi</td><td>IMSI(international mobile subscriber identity)。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>IMSI(international mobile subscriber identity)を取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
-<p>例：440103167698583</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>IMSI(international mobile subscriber identity)を取得します。</p>
+<p>例: imsi = "440103167698583"</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 5.1. AT+CIMI Request International Mobile Subscriber Identity (IMSI) </p>
@@ -162,13 +177,13 @@ template&lt;typename MODULE &gt; </div>
 <p>ICCIDを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">iccid</td><td>ICCID(integrated circuit card identifier) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">iccid</td><td>ICCID(integrated circuit card identifier)。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ICCID(integrated circuit card identifier)を取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
-<p>例：8981100005810680869F</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ICCID(integrated circuit card identifier)を取得します。</p>
+<p>例: iccid = "8981100005810680869F"</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 5.6. AT+QCCID Show ICCID </p>
@@ -205,17 +220,18 @@ template&lt;typename MODULE &gt; </div>
 <p>SIM初期化ステータスを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td>SIM初期化ステータス </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td>SIM初期化ステータス。nullptrを指定すると値を代入しません。 <ul>
+<li>0: 初期状態 </li>
+<li>1: CPIN READY </li>
+<li>2: SMS DONE </li>
+<li>3: CPIN READY &amp; SMS DONE </li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>SIMの初期化ステータスを取得します。 値を得る必要が無いときはnullptrを指定できます。</p><ul>
-<li>0: 初期状態</li>
-<li>1: CPIN READY</li>
-<li>2: SMS DONE</li>
-<li>3: CPIN READY &amp; SMS DONE</li>
-</ul>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>SIMの初期化ステータスを取得します。</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 5.8. AT+QINISTAT Query Initialization Status of (U)SIM Card </p>
@@ -262,19 +278,22 @@ template&lt;typename MODULE &gt; </div>
 <p>SIM挿入ステータスを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">enable</td><td>URC通知設定 </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td>SIM挿入ステータス </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">enable</td><td>URC通知設定。nullptrを指定すると値を代入しません。 <ul>
+<li>0: URC通知が無効 </li>
+<li>1: URC通知が有効 </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td>SIM挿入ステータス。nullptrを指定すると値を代入しません。 <ul>
+<li>0: SIM無し </li>
+<li>1: SIM有り </li>
+<li>2: SIM有無不明 </li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>SIM挿入のステータスとURC通知設定を取得します。</p><ul>
-<li>enable=0: URC通知が無効</li>
-<li>enable=1: URC通知が有効</li>
-<li>status=0: SIM無し</li>
-<li>status=1: SIM有り</li>
-<li>status=2: SIM有無不明</li>
-</ul>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>SIM挿入のステータスとURC通知設定を取得します。</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 5.10. AT+QSIMSTAT (U)SIM Card Insertion Status Report </p>
@@ -311,20 +330,21 @@ template&lt;typename MODULE &gt; </div>
 <p>PIN状態を取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">state</td><td>PIN状態 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">state</td><td>PIN状態。nullptrを指定すると値を代入しません。 <ul>
+<li>"READY": パスワードを要求しない </li>
+<li>"SIM PIN": SIM PINを要求 </li>
+<li>"SIM PUK": SIM PUKを要求 </li>
+<li>"SIM PIN2": SIM PIN2を要求 </li>
+<li>"SIM PUK2": SIM PUK2を要求 </li>
+<li>"PH-SIM PIN": 電話からSIMへのパスワード待ち </li>
+<li>"PH-NET PIN": ネットワークからSIMへのパスワード待ち </li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>PIN状態を取得します。 値を得る必要が無いときはnullptrを指定できます。</p><ul>
-<li>"READY": パスワードを要求しない</li>
-<li>"SIM PIN": SIM PINを要求</li>
-<li>"SIM PUK": SIM PUKを要求</li>
-<li>"SIM PIN2": SIM PIN2を要求</li>
-<li>"SIM PUK2": SIM PUK2を要求</li>
-<li>"PH-SIM PIN": 電話からSIMへのパスワード待ち</li>
-<li>"PH-NET PIN": ネットワークからSIMへのパスワード待ち</li>
-</ul>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>PIN状態を取得します。</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 5.3. AT+CPIN Enter PIN </p>

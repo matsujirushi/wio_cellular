@@ -69,6 +69,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Quectel BG770Aモジュールの一般コマンド  
+ <a href="classBg770aGeneralCommands.html#details">[詳解]</a></p>
+
 <p><code>#include &lt;Bg770aGeneralCommands.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -86,7 +89,19 @@ $(function() {
 <tr class="memdesc:a6e70597e7fb7728d88bcb717e1eaa3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファームウェアのレビジョンを取得  <a href="classBg770aGeneralCommands.html#a6e70597e7fb7728d88bcb717e1eaa3ff">[詳解]</a><br /></td></tr>
 <tr class="separator:a6e70597e7fb7728d88bcb717e1eaa3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">関数詳解</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><h3>template&lt;typename MODULE&gt;<br />
+class Bg770aGeneralCommands&lt; MODULE &gt;</h3>
+
+<p>Quectel BG770Aモジュールの一般コマンド </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">MODULE</td><td>モジュールのクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Quectel BG770Aモジュールの一般コマンドです。 </p>
+</div><h2 class="groupheader">関数詳解</h2>
 <a id="a76e5594e10837f040a6882977e152e89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76e5594e10837f040a6882977e152e89">&#9670;&nbsp;</a></span>factoryDefault()</h2>
 
@@ -116,11 +131,11 @@ template&lt;typename MODULE &gt; </div>
 <p>全ての設定をリセット </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
 <p>全ての設定を工場出荷時のデフォルトにします。 処理完了までに20秒程度かかります．</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
@@ -158,13 +173,13 @@ template&lt;typename MODULE &gt; </div>
 <p>IMEIを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">imei</td><td>IMEI(international mobile equipment identity) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">imei</td><td>IMEI(international mobile equipment identity)。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>IMEI(international mobile equipment identity)を取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
-<p>例：865502060000048</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>IMEI(international mobile equipment identity)を取得します。</p>
+<p>例: imei = "865502060000048"</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 2.8. AT+GSN Request International Mobile Equipment Identity (IMEI) </p>
@@ -201,13 +216,13 @@ template&lt;typename MODULE &gt; </div>
 <p>ファームウェアのレビジョンを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">revision</td><td>ファームウェアのレビジョン </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">revision</td><td>ファームウェアのレビジョン。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ファームウェアのレビジョンを取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
-<p>例：BG770AGLAAR02A05_JP_01.200.01.200</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ファームウェアのレビジョンを取得します。</p>
+<p>例: revision = "BG770AGLAAR02A05_JP_01.200.01.200"</p>
 <blockquote class="doxtable">
 <p>BG96 AT Commands Manual <br  />
 2.26. AT+QGMR Request Modem and Application Firmware Versions </p>
@@ -244,16 +259,17 @@ template&lt;typename MODULE &gt; </div>
 <p>電話の機能レベルを設定 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fun</td><td>機能レベル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fun</td><td>機能レベル。 <ul>
+<li>1: 全機能（RFフロントエンドとSIMカードを有効） </li>
+<li>4: SIMカードのみ有効（RFフロントエンドは無効） </li>
+<li>0: 最小機能 </li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>電話の機能レベルを設定します。</p><ul>
-<li>fun=0: 最小機能</li>
-<li>fun=1: 全機能（RFフロントエンドとSIMカードを有効）</li>
-<li>fun=4: SIMカードのみ有効（RFフロントエンドは無効）</li>
-</ul>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>電話の機能レベルを設定します。</p>
 <blockquote class="doxtable">
 <p>BG77xA-GL&amp;BG95xA-GL AT Commands Manual <br  />
 2.21. AT+CFUN Set UE Functionality </p>

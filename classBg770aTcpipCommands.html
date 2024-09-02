@@ -70,6 +70,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Quectel BG770AモジュールのTCP/IPコマンド  
+ <a href="classBg770aTcpipCommands.html#details">[詳解]</a></p>
+
 <p><code>#include &lt;Bg770aTcpipCommands.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -108,7 +111,19 @@ $(function() {
 <tr class="memdesc:ad910d57a7fc11dda00247433dd5748b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットから受信  <a href="classBg770aTcpipCommands.html#ad910d57a7fc11dda00247433dd5748b8">[詳解]</a><br /></td></tr>
 <tr class="separator:ad910d57a7fc11dda00247433dd5748b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">構築子と解体子</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><h3>template&lt;typename MODULE&gt;<br />
+class Bg770aTcpipCommands&lt; MODULE &gt;</h3>
+
+<p>Quectel BG770AモジュールのTCP/IPコマンド </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">MODULE</td><td>モジュールのクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Quectel BG770AモジュールのTCP/IPコマンドです。 </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
 <a id="af038f2e35e40db325eeaf653809cc122"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af038f2e35e40db325eeaf653809cc122">&#9670;&nbsp;</a></span>Bg770aTcpipCommands()</h2>
 
@@ -136,13 +151,7 @@ template&lt;typename MODULE &gt; </div>
 </div><div class="memdoc">
 
 <p>コンストラクタ </p>
-<dl class="params"><dt>引数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">interface</td><td>インターフェースのインスタンス</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>コンストラクタ。 interfaceにインターフェースのインスタンスを指定します。 </p>
+<p>コンストラクタ。 </p>
 
 </div>
 </div>
@@ -176,11 +185,11 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットをクローズ </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
 <p>ソケットをクローズします。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
@@ -228,13 +237,13 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットから未読のデータサイズを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">availableSize</td><td>未読のデータサイズ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">availableSize</td><td>未読のデータサイズ。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ソケットから未読のデータサイズを取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ソケットから未読のデータサイズを取得します。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
 2.3.9. AT+QIRD Retrieve the Received TCP/IP Data </p>
@@ -281,13 +290,13 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットサービスステータスを取得 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>PDPコンテキストID </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">statuses</td><td>ソケットサービスステータス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>PDPコンテキストID。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">statuses</td><td>ソケットサービスステータス。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ソケットサービスステータスを取得します。 値を得る必要が無いときはnullptrを指定できます。</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ソケットサービスステータスを取得します。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
 2.3.7. AT+QISTATE Query Socket Service Status </p>
@@ -358,16 +367,16 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットをオープン </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>PDPコンテキストID </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">serviceType</td><td>サービスタイプ </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ipAddress</td><td>IPアドレス </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">remotePort</td><td>リモートポート番号 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">localPort</td><td>ローカルポート番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>PDPコンテキストID。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">serviceType</td><td>サービスタイプ。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ipAddress</td><td>IPアドレス。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">remotePort</td><td>リモートポート番号。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">localPort</td><td>ローカルポート番号。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
 <p>ソケットをオープンします。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
@@ -427,14 +436,14 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットから受信 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。0を指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。nullptrを指定すると値を代入しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
 <p>ソケットから受信します。 受信したデータが無いときは*readDataSize=0を返します。 値を得る必要が無いときはnullptrを指定できます。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
@@ -500,16 +509,16 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットから受信 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。nullptrを指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。0を指定すると受信しません。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。nullptrを指定すると値を代入しません。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ソケットから受信します。 値を得る必要が無いときはnullptrを指定できます。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ソケットから受信します。 </p>
 
 </div>
 </div>
@@ -552,12 +561,12 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットへ送信 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
 <p>ソケットへ送信します。 </p>
 
 </div>
@@ -607,14 +616,14 @@ template&lt;typename MODULE &gt; </div>
 <p>ソケットへ送信 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">connectId</td><td>接続ID。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ。nullptrを指定すると送信しません。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。0を指定すると送信しません。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd>実行結果</dd></dl>
-<p>ソケットへ送信します。 値を送る必要が無いときはdata=nullptrもしくはdataSize&lt;=0を指定できます。</p>
+<dl class="section return"><dt>戻り値</dt><dd>実行結果。</dd></dl>
+<p>ソケットへ送信します。</p>
 <blockquote class="doxtable">
 <p>BG770A-GL&amp;BG95xA-GL TCP/IP Application Note <br  />
 2.3.8. AT+QISEND Send Data </p>
