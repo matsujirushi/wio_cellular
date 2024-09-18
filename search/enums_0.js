@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wiocellularresult_347',['WioCellularResult',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4',1,'WioCellularResult.hpp']]]
+  ['networkstate_372',['NetworkState',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27',1,'wiocellular::experimental::EasyNetwork']]]
 ];

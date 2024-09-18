@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ok_351',['Ok',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4aa60852f204ed8028c1c58808b746d115',1,'WioCellularResult.hpp']]],
-  ['openerror_352',['OpenError',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4ac51a07a6d1b3c8609dc095cc4d540e23',1,'WioCellularResult.hpp']]],
-  ['opentimeout_353',['OpenTimeout',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4afd94f7f80e1b9cdb71f28ca9b565af94',1,'WioCellularResult.hpp']]]
+  ['notactivate_378',['NotActivate',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4aa9eb62f4e3ae03ec1b8ae9ddef671dbe',1,'WioCellularResult.hpp']]],
+  ['notsearching_379',['NotSearching',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27ab71a1d0ef10522cee233ea8b5f78901f',1,'wiocellular::experimental::EasyNetwork']]]
 ];

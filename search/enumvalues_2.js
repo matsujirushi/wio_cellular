@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notactivate_350',['NotActivate',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4aa9eb62f4e3ae03ec1b8ae9ddef671dbe',1,'WioCellularResult.hpp']]]
+  ['denied_377',['Denied',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a58d036b9b7f0e7eb38cfb90f1cc70a73',1,'wiocellular::experimental::EasyNetwork']]]
 ];

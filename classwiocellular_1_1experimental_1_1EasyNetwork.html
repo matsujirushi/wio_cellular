@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wio Cellular: wiocellular::experimental::EasyNetwork クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wio Cellular
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacewiocellular.html">wiocellular</a></li><li class="navelem"><a class="el" href="namespacewiocellular_1_1experimental.html">experimental</a></li><li class="navelem"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html">EasyNetwork</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型</a> &#124;
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pub-attribs">公開変数類</a> &#124;
+<a href="classwiocellular_1_1experimental_1_1EasyNetwork-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">wiocellular::experimental::EasyNetwork クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>[Experimental] ネットワーク支援クラス  
+ <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;EasyNetwork.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:a222ee5b313c5d8a9ed99171eaffedc27"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">NetworkState</a> { <br />
+&#160;&#160;<a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27ab71a1d0ef10522cee233ea8b5f78901f">NotSearching</a>
+, <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a843627586c62e389041a4d8800143974">Searching</a>
+, <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a2ec0d16e4ca169baedb9b2d50ec5c6d7">Connected</a>
+, <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a58d036b9b7f0e7eb38cfb90f1cc70a73">Denied</a>
+, <br />
+&#160;&#160;<a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a222ee5b313c5d8a9ed99171eaffedc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク状態  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">[詳解]</a><br /></td></tr>
+<tr class="separator:a222ee5b313c5d8a9ed99171eaffedc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a26ecc79c5efed7434f01e3e780ce232a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a26ecc79c5efed7434f01e3e780ce232a">EasyNetwork</a> (void)</td></tr>
+<tr class="memdesc:a26ecc79c5efed7434f01e3e780ce232a"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a26ecc79c5efed7434f01e3e780ce232a">[詳解]</a><br /></td></tr>
+<tr class="separator:a26ecc79c5efed7434f01e3e780ce232a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69db1aa5295f113c35c1ecdff4ec979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ae69db1aa5295f113c35c1ecdff4ec979">begin</a> (void)</td></tr>
+<tr class="memdesc:ae69db1aa5295f113c35c1ecdff4ec979"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワークを開始  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ae69db1aa5295f113c35c1ecdff4ec979">[詳解]</a><br /></td></tr>
+<tr class="separator:ae69db1aa5295f113c35c1ecdff4ec979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76da73f8ce86aeb25d9633a887bc2db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">NetworkState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ad76da73f8ce86aeb25d9633a887bc2db">getNetworkState</a> (void)</td></tr>
+<tr class="memdesc:ad76da73f8ce86aeb25d9633a887bc2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク状態を取得  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ad76da73f8ce86aeb25d9633a887bc2db">[詳解]</a><br /></td></tr>
+<tr class="separator:ad76da73f8ce86aeb25d9633a887bc2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab61c153229e7aefbb21e654c4741c064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ab61c153229e7aefbb21e654c4741c064">canCommunicate</a> (void)</td></tr>
+<tr class="memdesc:ab61c153229e7aefbb21e654c4741c064"><td class="mdescLeft">&#160;</td><td class="mdescRight">通信可否を取得  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ab61c153229e7aefbb21e654c4741c064">[詳解]</a><br /></td></tr>
+<tr class="separator:ab61c153229e7aefbb21e654c4741c064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a08d52ff65b0b3751a36ac38f844e1d55"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a08d52ff65b0b3751a36ac38f844e1d55">networkStateToString</a> (<a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">NetworkState</a> state)</td></tr>
+<tr class="memdesc:a08d52ff65b0b3751a36ac38f844e1d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク状態を文字列に変換  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a08d52ff65b0b3751a36ac38f844e1d55">[詳解]</a><br /></td></tr>
+<tr class="separator:a08d52ff65b0b3751a36ac38f844e1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:ad15d3f5d0e9742b0621a42ca1568dc77"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const char *file, int line)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ad15d3f5d0e9742b0621a42ca1568dc77">abortHandler</a></td></tr>
+<tr class="memdesc:ad15d3f5d0e9742b0621a42ca1568dc77"><td class="mdescLeft">&#160;</td><td class="mdescRight">異常終了ハンドラ  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ad15d3f5d0e9742b0621a42ca1568dc77">[詳解]</a><br /></td></tr>
+<tr class="separator:ad15d3f5d0e9742b0621a42ca1568dc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285f1c6b0c04757dcbb4ea81a77cc7d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a285f1c6b0c04757dcbb4ea81a77cc7d1">pdpContextId</a></td></tr>
+<tr class="memdesc:a285f1c6b0c04757dcbb4ea81a77cc7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDPコンテキストID  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a285f1c6b0c04757dcbb4ea81a77cc7d1">[詳解]</a><br /></td></tr>
+<tr class="separator:a285f1c6b0c04757dcbb4ea81a77cc7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42863d8f9f84210582a8e5eca834822e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a42863d8f9f84210582a8e5eca834822e">apn</a></td></tr>
+<tr class="memdesc:a42863d8f9f84210582a8e5eca834822e"><td class="mdescLeft">&#160;</td><td class="mdescRight">APN(access point name)  <a href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a42863d8f9f84210582a8e5eca834822e">[詳解]</a><br /></td></tr>
+<tr class="separator:a42863d8f9f84210582a8e5eca834822e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>[Experimental] ネットワーク支援クラス </p>
+<p>ネットワークの操作を支援するクラスです。 </p>
+</div><h2 class="groupheader">列挙型メンバ詳解</h2>
+<a id="a222ee5b313c5d8a9ed99171eaffedc27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222ee5b313c5d8a9ed99171eaffedc27">&#9670;&nbsp;</a></span>NetworkState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">wiocellular::experimental::EasyNetwork::NetworkState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ネットワーク状態 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a222ee5b313c5d8a9ed99171eaffedc27ab71a1d0ef10522cee233ea8b5f78901f"></a>NotSearching&#160;</td><td class="fielddoc"><p>未検索 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a222ee5b313c5d8a9ed99171eaffedc27a843627586c62e389041a4d8800143974"></a>Searching&#160;</td><td class="fielddoc"><p>検索中 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a222ee5b313c5d8a9ed99171eaffedc27a2ec0d16e4ca169baedb9b2d50ec5c6d7"></a>Connected&#160;</td><td class="fielddoc"><p>接続済み </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a222ee5b313c5d8a9ed99171eaffedc27a58d036b9b7f0e7eb38cfb90f1cc70a73"></a>Denied&#160;</td><td class="fielddoc"><p>拒否 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a222ee5b313c5d8a9ed99171eaffedc27a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>不明 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">構築子と解体子</h2>
+<a id="a26ecc79c5efed7434f01e3e780ce232a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ecc79c5efed7434f01e3e780ce232a">&#9670;&nbsp;</a></span>EasyNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiocellular::experimental::EasyNetwork::EasyNetwork </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<p>コンストラクタ。 </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="ae69db1aa5295f113c35c1ecdff4ec979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69db1aa5295f113c35c1ecdff4ec979">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiocellular::experimental::EasyNetwork::begin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ネットワークを開始 </p>
+<p>ネットワークを初期化します。 </p>
+
+</div>
+</div>
+<a id="ab61c153229e7aefbb21e654c4741c064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab61c153229e7aefbb21e654c4741c064">&#9670;&nbsp;</a></span>canCommunicate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wiocellular::experimental::EasyNetwork::canCommunicate </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>通信可否を取得 </p>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>通信可能 </td></tr>
+    <tr><td class="paramname">false</td><td>通信不可能</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>通信可否を取得します。 </p>
+
+</div>
+</div>
+<a id="ad76da73f8ce86aeb25d9633a887bc2db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76da73f8ce86aeb25d9633a887bc2db">&#9670;&nbsp;</a></span>getNetworkState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">NetworkState</a> wiocellular::experimental::EasyNetwork::getNetworkState </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ネットワーク状態を取得 </p>
+<dl class="section return"><dt>戻り値</dt><dd>ネットワーク状態。</dd></dl>
+<p>ネットワーク状態を取得します。 </p>
+
+</div>
+</div>
+<a id="a08d52ff65b0b3751a36ac38f844e1d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d52ff65b0b3751a36ac38f844e1d55">&#9670;&nbsp;</a></span>networkStateToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr const char* wiocellular::experimental::EasyNetwork::networkStateToString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27">NetworkState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ネットワーク状態を文字列に変換 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>ネットワーク状態。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>ネットワーク状態の文字列。</dd></dl>
+<p>ネットワーク状態を文字列に変換します。 </p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ad15d3f5d0e9742b0621a42ca1568dc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15d3f5d0e9742b0621a42ca1568dc77">&#9670;&nbsp;</a></span>abortHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(const char *file, int line)&gt; wiocellular::experimental::EasyNetwork::abortHandler</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>異常終了ハンドラ </p>
+
+</div>
+</div>
+<a id="a42863d8f9f84210582a8e5eca834822e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42863d8f9f84210582a8e5eca834822e">&#9670;&nbsp;</a></span>apn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string wiocellular::experimental::EasyNetwork::apn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>APN(access point name) </p>
+
+</div>
+</div>
+<a id="a285f1c6b0c04757dcbb4ea81a77cc7d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285f1c6b0c04757dcbb4ea81a77cc7d1">&#9670;&nbsp;</a></span>pdpContextId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wiocellular::experimental::EasyNetwork::pdpContextId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PDPコンテキストID </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li><a class="el" href="EasyNetwork_8hpp.html">EasyNetwork.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
