@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waitcommandtimeout_388',['WaitCommandTimeout',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4a787fe4a43afef478d23de4b257230b54',1,'WioCellularResult.hpp']]]
+  ['unknown_403',['Unknown',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a88183b946cc5f0e8c96b2e66e1c74a7e',1,'wiocellular::experimental::EasyNetwork']]]
 ];
