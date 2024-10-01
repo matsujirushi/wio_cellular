@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['denied_389',['Denied',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a58d036b9b7f0e7eb38cfb90f1cc70a73',1,'wiocellular::experimental::EasyNetwork']]]
+  ['denied_397',['Denied',['../classwiocellular_1_1network_1_1Bg770aNetwork.html#a409c7326f808aa0d5a675fff75e77cf2a58d036b9b7f0e7eb38cfb90f1cc70a73',1,'wiocellular::network::Bg770aNetwork']]]
 ];

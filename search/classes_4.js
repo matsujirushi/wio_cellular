@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pdpcontext_224',['PdpContext',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands_1_1PdpContext.html',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands']]],
-  ['pdpcontextstatus_225',['PdpContextStatus',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands_1_1PdpContextStatus.html',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands']]]
+  ['socketstatus_230',['SocketStatus',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands_1_1SocketStatus.html',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands']]]
 ];

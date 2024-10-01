@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['searching_402',['Searching',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a222ee5b313c5d8a9ed99171eaffedc27a843627586c62e389041a4d8800143974',1,'wiocellular::experimental::EasyNetwork']]]
+  ['searching_410',['Searching',['../classwiocellular_1_1network_1_1Bg770aNetwork.html#a409c7326f808aa0d5a675fff75e77cf2a843627586c62e389041a4d8800143974',1,'wiocellular::network::Bg770aNetwork']]]
 ];

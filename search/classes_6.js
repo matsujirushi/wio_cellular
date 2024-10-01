@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['uart_227',['Uart',['../classsuli3_1_1arduino_1_1Uart.html',1,'suli3::arduino']]],
-  ['uart_3c_20decltype_28realmainuart_5f_29_3e_228',['Uart&lt; decltype(RealMainUart_)&gt;',['../classsuli3_1_1arduino_1_1Uart.html',1,'suli3::arduino']]]
+  ['wiobg770a_233',['WioBg770a',['../classwiocellular_1_1board_1_1WioBg770a.html',1,'wiocellular::board']]],
+  ['wiocellulartcpclient_234',['WioCellularTcpClient',['../classWioCellularTcpClient.html',1,'']]]
 ];

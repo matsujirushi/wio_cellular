@@ -82,14 +82,17 @@ $(function() {
 , <a class="el" href="classsuli3_1_1arduino_1_1DigitalOutputPin.html#a3b93a7c3fc0b5a05b6224d6a0fa3e9cf">suli3::arduino::DigitalOutputPin&lt; PIN &gt;</a>
 , <a class="el" href="classsuli3_1_1arduino_1_1Uart.html#aab2b4f56a15146e0c01035fe4e700896">suli3::arduino::Uart&lt; T &gt;</a>
 , <a class="el" href="classwiocellular_1_1board_1_1WioBg770a.html#a68cd4e3f960992520fc9a9b79f8cbf10">wiocellular::board::WioBg770a&lt; MODULE, INTERFACE &gt;</a>
-, <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ae69db1aa5295f113c35c1ecdff4ec979">wiocellular::experimental::EasyNetwork</a>
 , <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#aee687f565cd07241312a7455fc55bab3">wiocellular::module::bg770a::Bg770aInterface&lt; CONSTANT, UART &gt;</a>
+, <a class="el" href="classwiocellular_1_1network_1_1Bg770aNetwork.html#a50642e8dca6c28aef28844dade9e97ae">wiocellular::network::Bg770aNetwork</a>
 </li>
 <li>Bg770a()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1Bg770a.html#a2232b858c2c29609eb6758a76e10fdc1">wiocellular::module::bg770a::Bg770a&lt; INTERFACE &gt;</a>
 </li>
 <li>Bg770aInterface()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#a0df40d36599131d7c74fd06e40034443">wiocellular::module::bg770a::Bg770aInterface&lt; CONSTANT, UART &gt;</a>
+</li>
+<li>Bg770aNetwork()
+: <a class="el" href="classwiocellular_1_1network_1_1Bg770aNetwork.html#aa50b472fe536673ec620d0aebd87bcfc">wiocellular::network::Bg770aNetwork</a>
 </li>
 <li>Bg770aTcpipCommands()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a6f06f6aed37817769ce7bd8d9e72f5d4">wiocellular::module::bg770a::commands::Bg770aTcpipCommands&lt; MODULE &gt;</a>
@@ -99,7 +102,7 @@ $(function() {
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>canCommunicate()
-: <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ab61c153229e7aefbb21e654c4741c064">wiocellular::experimental::EasyNetwork</a>
+: <a class="el" href="classwiocellular_1_1network_1_1Bg770aNetwork.html#a81c15514148b3f94db8f9f4f986df46f">wiocellular::network::Bg770aNetwork</a>
 </li>
 <li>closeSocket()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a84442fb57c05ad1c3af61c19f5dff848">wiocellular::module::bg770a::commands::Bg770aTcpipCommands&lt; MODULE &gt;</a>
@@ -127,9 +130,6 @@ $(function() {
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
-<li>EasyNetwork()
-: <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a26ecc79c5efed7434f01e3e780ce232a">wiocellular::experimental::EasyNetwork</a>
-</li>
 <li>enableCellularPower()
 : <a class="el" href="classwiocellular_1_1board_1_1WioBg770a.html#a297c3dbaee3bbd9fbb3a2e5394443a3b">wiocellular::board::WioBg770a&lt; MODULE, INTERFACE &gt;</a>
 </li>
@@ -174,7 +174,7 @@ $(function() {
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aGeneralCommands.html#a86ebe486e08b45dcf7f08f30b4cf11f5">wiocellular::module::bg770a::commands::Bg770aGeneralCommands&lt; MODULE &gt;</a>
 </li>
 <li>getNetworkState()
-: <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#ad76da73f8ce86aeb25d9633a887bc2db">wiocellular::experimental::EasyNetwork</a>
+: <a class="el" href="classwiocellular_1_1network_1_1Bg770aNetwork.html#a1ae5e9b936a9807bd0421d37a39e58e6">wiocellular::network::Bg770aNetwork</a>
 </li>
 <li>getOperator()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aNetworkServiceCommands.html#acd94de9cd1fcc86c0e19094e1619db9b">wiocellular::module::bg770a::commands::Bg770aNetworkServiceCommands&lt; MODULE &gt;</a>
@@ -227,6 +227,9 @@ $(function() {
 <li>getSocketStatus()
 : <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#aba5c579c655f3355fe4629a91fc38aea">wiocellular::module::bg770a::commands::Bg770aTcpipCommands&lt; MODULE &gt;</a>
 </li>
+<li>getSocketUnusedConnectId()
+: <a class="el" href="classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a87edd975a3ecfc07b6763bdc4e4bcc57">wiocellular::module::bg770a::commands::Bg770aTcpipCommands&lt; MODULE &gt;</a>
+</li>
 </ul>
 
 
@@ -246,7 +249,7 @@ $(function() {
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>networkStateToString()
-: <a class="el" href="classwiocellular_1_1experimental_1_1EasyNetwork.html#a08d52ff65b0b3751a36ac38f844e1d55">wiocellular::experimental::EasyNetwork</a>
+: <a class="el" href="classwiocellular_1_1network_1_1Bg770aNetwork.html#aa96ef148a04a495dec06789b49d5366b">wiocellular::network::Bg770aNetwork</a>
 </li>
 </ul>
 

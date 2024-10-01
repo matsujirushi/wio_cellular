@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nbiotband_365',['nbiotBand',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#aa98ae4f7f2cb56a6479b4426075c8068',1,'wiocellular::experimental::EasyNetwork']]]
+  ['module_5f_371',['Module_',['../classWioCellularTcpClient.html#ad13120ed99239b9c31b281c9f7f5915b',1,'WioCellularTcpClient']]]
 ];

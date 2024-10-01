@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['receive_5fmax_5flength_370',['RECEIVE_MAX_LENGTH',['../classWioCellularTcpClient.html#ae6650ca701c4e0724e200653449d8ef4',1,'WioCellularTcpClient']]],
-  ['receivebuffer_5f_371',['ReceiveBuffer_',['../classWioCellularTcpClient.html#a4df6af619e3d81e73d9fa4f9903f650c',1,'WioCellularTcpClient']]],
-  ['receivequeue_5f_372',['ReceiveQueue_',['../classWioCellularTcpClient.html#a85214278d5fe08b230d05a4dfc3a46da',1,'WioCellularTcpClient']]],
-  ['remoteport_373',['remotePort',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands_1_1SocketStatus.html#a30f1ff096e4fdd861c388b20116734d4',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands::SocketStatus']]]
+  ['pdpaddr_374',['pdpAddr',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands_1_1PdpContext.html#ab5761a36ff6f632ddaa07590f1123454',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands::PdpContext']]],
+  ['pdpcontextid_375',['pdpContextId',['../classwiocellular_1_1network_1_1Bg770aNetwork.html#acefbaff726a1f7e669fb64e3a0796a91',1,'wiocellular::network::Bg770aNetwork']]],
+  ['pdpcontextid_5f_376',['PdpContextId_',['../classWioCellularTcpClient.html#a404602f6cde95330f14e3f8496627e0e',1,'WioCellularTcpClient']]],
+  ['pdptype_377',['pdpType',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands_1_1PdpContext.html#ab38b3144be428d9b52ddc0e6a60194d8',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands::PdpContext']]]
 ];

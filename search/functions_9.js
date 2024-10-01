@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['networkstatetostring_310',['networkStateToString',['../classwiocellular_1_1experimental_1_1EasyNetwork.html#a08d52ff65b0b3751a36ac38f844e1d55',1,'wiocellular::experimental::EasyNetwork']]]
+  ['networkstatetostring_315',['networkStateToString',['../classwiocellular_1_1network_1_1Bg770aNetwork.html#aa96ef148a04a495dec06789b49d5366b',1,'wiocellular::network::Bg770aNetwork']]]
 ];
