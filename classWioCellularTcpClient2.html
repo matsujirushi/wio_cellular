@@ -1,0 +1,694 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wio Cellular: WioCellularTcpClient2&lt; MODULE &gt; クラステンプレート</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Wio Cellular
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型</a> &#124;
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classWioCellularTcpClient2-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">WioCellularTcpClient2&lt; MODULE &gt; クラステンプレート</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>TCPクライアント  
+ <a href="classWioCellularTcpClient2.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;WioCellularTcpClient2.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:a60439c3da4b63ad0001e3fe82699c77b" id="r_a60439c3da4b63ad0001e3fe82699c77b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77b">State</a> { <br />
+&#160;&#160;<a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba03f4a47830f97377a35321051685071e">Closed</a>
+, <a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba1a11b1adc359c03db0ca798a00e2632c">Opened</a>
+, <a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba3b26f2ffccae97443db33944eda7b269">ConnectError</a>
+, <a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba2ec0d16e4ca169baedb9b2d50ec5c6d7">Connected</a>
+, <br />
+&#160;&#160;<a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba5c8de6f894682fdb1786037b2040a26e">Closing</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a60439c3da4b63ad0001e3fe82699c77b"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアント状態  <a href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77b">[詳解]</a><br /></td></tr>
+<tr class="separator:a60439c3da4b63ad0001e3fe82699c77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5e4f5a63ddab07377bdb89fde6e46b93" id="r_a5e4f5a63ddab07377bdb89fde6e46b93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77b">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a5e4f5a63ddab07377bdb89fde6e46b93">getState</a> (void) const</td></tr>
+<tr class="memdesc:a5e4f5a63ddab07377bdb89fde6e46b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアント状態を取得  <br /></td></tr>
+<tr class="separator:a5e4f5a63ddab07377bdb89fde6e46b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332a4d6aa670460ea9b8ca63e7498461" id="r_a332a4d6aa670460ea9b8ca63e7498461"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4">WioCellularResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a332a4d6aa670460ea9b8ca63e7498461">getLastResult</a> (void) const</td></tr>
+<tr class="memdesc:a332a4d6aa670460ea9b8ca63e7498461"><td class="mdescLeft">&#160;</td><td class="mdescRight">最後の実行結果を取得  <br /></td></tr>
+<tr class="separator:a332a4d6aa670460ea9b8ca63e7498461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea328d6399a1b7267eb6d4d82770f62" id="r_a2ea328d6399a1b7267eb6d4d82770f62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a2ea328d6399a1b7267eb6d4d82770f62">WioCellularTcpClient2</a> (MODULE &amp;module)</td></tr>
+<tr class="memdesc:a2ea328d6399a1b7267eb6d4d82770f62"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <br /></td></tr>
+<tr class="separator:a2ea328d6399a1b7267eb6d4d82770f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf6f8096e151e4576bb380630445248f" id="r_aaf6f8096e151e4576bb380630445248f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#aaf6f8096e151e4576bb380630445248f">~WioCellularTcpClient2</a> (void)</td></tr>
+<tr class="memdesc:aaf6f8096e151e4576bb380630445248f"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <br /></td></tr>
+<tr class="separator:aaf6f8096e151e4576bb380630445248f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606725ed3ed3b7fe4a901f7f9da7fa92" id="r_a606725ed3ed3b7fe4a901f7f9da7fa92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a606725ed3ed3b7fe4a901f7f9da7fa92">open</a> (int cid, const std::string &amp;ipAddress, int remotePort)</td></tr>
+<tr class="memdesc:a606725ed3ed3b7fe4a901f7f9da7fa92"><td class="mdescLeft">&#160;</td><td class="mdescRight">オープン  <br /></td></tr>
+<tr class="separator:a606725ed3ed3b7fe4a901f7f9da7fa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d2661e79d85ca696ca23f8fbb4a21d" id="r_a06d2661e79d85ca696ca23f8fbb4a21d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a06d2661e79d85ca696ca23f8fbb4a21d">waitforConnect</a> (int timeout)</td></tr>
+<tr class="memdesc:a06d2661e79d85ca696ca23f8fbb4a21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続完了を待機  <br /></td></tr>
+<tr class="separator:a06d2661e79d85ca696ca23f8fbb4a21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fb57d32af026fe7e221047e03675f6" id="r_a75fb57d32af026fe7e221047e03675f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a75fb57d32af026fe7e221047e03675f6">close</a> (void)</td></tr>
+<tr class="memdesc:a75fb57d32af026fe7e221047e03675f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">クローズ  <br /></td></tr>
+<tr class="separator:a75fb57d32af026fe7e221047e03675f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a3e29933b06ca885adc979a2304637" id="r_a61a3e29933b06ca885adc979a2304637"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a61a3e29933b06ca885adc979a2304637">send</a> (const void *data, size_t dataSize)</td></tr>
+<tr class="memdesc:a61a3e29933b06ca885adc979a2304637"><td class="mdescLeft">&#160;</td><td class="mdescRight">送信  <br /></td></tr>
+<tr class="separator:a61a3e29933b06ca885adc979a2304637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310019aae704debea7ceb85a53f9d891" id="r_a310019aae704debea7ceb85a53f9d891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a310019aae704debea7ceb85a53f9d891">waitForReceive</a> (int timeout)</td></tr>
+<tr class="memdesc:a310019aae704debea7ceb85a53f9d891"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信待機  <br /></td></tr>
+<tr class="separator:a310019aae704debea7ceb85a53f9d891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72124dc75dc2385743829403a7580ca4" id="r_a72124dc75dc2385743829403a7580ca4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a72124dc75dc2385743829403a7580ca4">receive</a> (void *data, size_t dataSize, size_t *readDataSize)</td></tr>
+<tr class="memdesc:a72124dc75dc2385743829403a7580ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信  <br /></td></tr>
+<tr class="separator:a72124dc75dc2385743829403a7580ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b414358d8e75e4834e73a78d7702a8" id="r_a41b414358d8e75e4834e73a78d7702a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a41b414358d8e75e4834e73a78d7702a8">receive</a> (void *data, size_t dataSize, size_t *readDataSize, int timeout)</td></tr>
+<tr class="memdesc:a41b414358d8e75e4834e73a78d7702a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信  <br /></td></tr>
+<tr class="separator:a41b414358d8e75e4834e73a78d7702a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename MODULE&gt;<br />
+class WioCellularTcpClient2&lt; MODULE &gt;</div><p>TCPクライアント </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">MODULE</td><td>モジュールのクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>TCPクライアントのクラスです。 </p>
+</div><h2 class="groupheader">列挙型メンバ詳解</h2>
+<a id="a60439c3da4b63ad0001e3fe82699c77b" name="a60439c3da4b63ad0001e3fe82699c77b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60439c3da4b63ad0001e3fe82699c77b">&#9670;&#160;</a></span>State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77b">WioCellularTcpClient2::State</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアント状態 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a60439c3da4b63ad0001e3fe82699c77ba03f4a47830f97377a35321051685071e" name="a60439c3da4b63ad0001e3fe82699c77ba03f4a47830f97377a35321051685071e"></a>Closed&#160;</td><td class="fielddoc"><p>クローズ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60439c3da4b63ad0001e3fe82699c77ba1a11b1adc359c03db0ca798a00e2632c" name="a60439c3da4b63ad0001e3fe82699c77ba1a11b1adc359c03db0ca798a00e2632c"></a>Opened&#160;</td><td class="fielddoc"><p>オープン完了 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60439c3da4b63ad0001e3fe82699c77ba3b26f2ffccae97443db33944eda7b269" name="a60439c3da4b63ad0001e3fe82699c77ba3b26f2ffccae97443db33944eda7b269"></a>ConnectError&#160;</td><td class="fielddoc"><p>接続エラー </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60439c3da4b63ad0001e3fe82699c77ba2ec0d16e4ca169baedb9b2d50ec5c6d7" name="a60439c3da4b63ad0001e3fe82699c77ba2ec0d16e4ca169baedb9b2d50ec5c6d7"></a>Connected&#160;</td><td class="fielddoc"><p>接続完了 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60439c3da4b63ad0001e3fe82699c77ba5c8de6f894682fdb1786037b2040a26e" name="a60439c3da4b63ad0001e3fe82699c77ba5c8de6f894682fdb1786037b2040a26e"></a>Closing&#160;</td><td class="fielddoc"><p>クローズ中 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">構築子と解体子</h2>
+<a id="a2ea328d6399a1b7267eb6d4d82770f62" name="a2ea328d6399a1b7267eb6d4d82770f62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea328d6399a1b7267eb6d4d82770f62">&#9670;&#160;</a></span>WioCellularTcpClient2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;<a class="el" href="classWioCellularTcpClient2.html">::WioCellularTcpClient2</a> </td>
+          <td>(</td>
+          <td class="paramtype">MODULE &amp;&#160;</td>
+          <td class="paramname"><em>module</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">module</td><td>モジュールのインスタンス。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>コンストラクタ。 </p>
+
+</div>
+</div>
+<a id="aaf6f8096e151e4576bb380630445248f" name="aaf6f8096e151e4576bb380630445248f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6f8096e151e4576bb380630445248f">&#9670;&#160;</a></span>~WioCellularTcpClient2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::~<a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a> </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+<p>デストラクタ。 </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a75fb57d32af026fe7e221047e03675f6" name="a75fb57d32af026fe7e221047e03675f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75fb57d32af026fe7e221047e03675f6">&#9670;&#160;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::close </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クローズ </p>
+<p>TCPクライアントをクローズします。 </p>
+
+</div>
+</div>
+<a id="a332a4d6aa670460ea9b8ca63e7498461" name="a332a4d6aa670460ea9b8ca63e7498461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332a4d6aa670460ea9b8ca63e7498461">&#9670;&#160;</a></span>getLastResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4">WioCellularResult</a> <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::getLastResult </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最後の実行結果を取得 </p>
+<dl class="section return"><dt>戻り値</dt><dd>最後の実行結果。</dd></dl>
+<p>最後の実行結果を取得します。 </p>
+
+</div>
+</div>
+<a id="a5e4f5a63ddab07377bdb89fde6e46b93" name="a5e4f5a63ddab07377bdb89fde6e46b93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e4f5a63ddab07377bdb89fde6e46b93">&#9670;&#160;</a></span>getState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77b">State</a> <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::getState </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアント状態を取得 </p>
+<dl class="section return"><dt>戻り値</dt><dd>クライアント状態。</dd></dl>
+<p>クライアント状態を取得します。 この関数は最後の実行結果（ getLastResult(void) ）に影響を与えません。 </p>
+
+</div>
+</div>
+<a id="a606725ed3ed3b7fe4a901f7f9da7fa92" name="a606725ed3ed3b7fe4a901f7f9da7fa92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606725ed3ed3b7fe4a901f7f9da7fa92">&#9670;&#160;</a></span>open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::open </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ipAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>remotePort</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オープン </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>PDPコンテキストID。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ipAddress</td><td>IPアドレス。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">remotePort</td><td>リモートポート番号。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">&gt;=0</td><td>接続ID </td></tr>
+    <tr><td class="paramname">&lt;0</td><td>エラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>TCPクライアントをオープンします。 エラーのときは負の値を返します。 </p>
+
+</div>
+</div>
+<a id="a72124dc75dc2385743829403a7580ca4" name="a72124dc75dc2385743829403a7580ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72124dc75dc2385743829403a7580ca4">&#9670;&#160;</a></span>receive() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::receive </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>readDataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>受信 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>成功 </td></tr>
+    <tr><td class="paramname">false</td><td>エラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>受信したデータを取得します。 </p>
+
+</div>
+</div>
+<a id="a41b414358d8e75e4834e73a78d7702a8" name="a41b414358d8e75e4834e73a78d7702a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b414358d8e75e4834e73a78d7702a8">&#9670;&#160;</a></span>receive() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::receive </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>readDataSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>受信 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>データ。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">readDataSize</td><td>受信したデータサイズ。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>成功 </td></tr>
+    <tr><td class="paramname">false</td><td>タイムアウトもしくはエラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>受信したデータを取得します。 </p>
+
+</div>
+</div>
+<a id="a61a3e29933b06ca885adc979a2304637" name="a61a3e29933b06ca885adc979a2304637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61a3e29933b06ca885adc979a2304637">&#9670;&#160;</a></span>send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::send </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>送信 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>成功 </td></tr>
+    <tr><td class="paramname">false</td><td>エラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>データを送信します。 </p>
+
+</div>
+</div>
+<a id="a06d2661e79d85ca696ca23f8fbb4a21d" name="a06d2661e79d85ca696ca23f8fbb4a21d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d2661e79d85ca696ca23f8fbb4a21d">&#9670;&#160;</a></span>waitforConnect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::waitforConnect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続完了を待機 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>接続完了 </td></tr>
+    <tr><td class="paramname">false</td><td>タイムアウトもしくは接続エラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>TCPクライアントの接続完了を待機します。 永久に待機したいときはtimeoutに-1を指定します。 </p>
+
+</div>
+</div>
+<a id="a310019aae704debea7ceb85a53f9d891" name="a310019aae704debea7ceb85a53f9d891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310019aae704debea7ceb85a53f9d891">&#9670;&#160;</a></span>waitForReceive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODULE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::waitForReceive </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>受信待機 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>受信有り？ </td></tr>
+    <tr><td class="paramname">false</td><td>タイムアウトもしくはクローズ中</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>データの受信を待機します。 trueを返したときは受信データがある可能性を示します。受信データが必ずあるわけではありません。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li><a class="el" href="WioCellularTcpClient2_8hpp.html">WioCellularTcpClient2.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
