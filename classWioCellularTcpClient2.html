@@ -116,15 +116,12 @@ $(function() {
 <tr class="memitem:a06d2661e79d85ca696ca23f8fbb4a21d" id="r_a06d2661e79d85ca696ca23f8fbb4a21d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a06d2661e79d85ca696ca23f8fbb4a21d">waitforConnect</a> (int timeout)</td></tr>
 <tr class="memdesc:a06d2661e79d85ca696ca23f8fbb4a21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続完了を待機  <br /></td></tr>
 <tr class="separator:a06d2661e79d85ca696ca23f8fbb4a21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75fb57d32af026fe7e221047e03675f6" id="r_a75fb57d32af026fe7e221047e03675f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a75fb57d32af026fe7e221047e03675f6">close</a> (void)</td></tr>
-<tr class="memdesc:a75fb57d32af026fe7e221047e03675f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">クローズ  <br /></td></tr>
-<tr class="separator:a75fb57d32af026fe7e221047e03675f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc74e8e45c2dfc58b4c4a64a5e1b644f" id="r_acc74e8e45c2dfc58b4c4a64a5e1b644f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#acc74e8e45c2dfc58b4c4a64a5e1b644f">close</a> (void)</td></tr>
+<tr class="memdesc:acc74e8e45c2dfc58b4c4a64a5e1b644f"><td class="mdescLeft">&#160;</td><td class="mdescRight">クローズ  <br /></td></tr>
+<tr class="separator:acc74e8e45c2dfc58b4c4a64a5e1b644f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61a3e29933b06ca885adc979a2304637" id="r_a61a3e29933b06ca885adc979a2304637"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a61a3e29933b06ca885adc979a2304637">send</a> (const void *data, size_t dataSize)</td></tr>
 <tr class="memdesc:a61a3e29933b06ca885adc979a2304637"><td class="mdescLeft">&#160;</td><td class="mdescRight">送信  <br /></td></tr>
 <tr class="separator:a61a3e29933b06ca885adc979a2304637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310019aae704debea7ceb85a53f9d891" id="r_a310019aae704debea7ceb85a53f9d891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a310019aae704debea7ceb85a53f9d891">waitForReceive</a> (int timeout)</td></tr>
-<tr class="memdesc:a310019aae704debea7ceb85a53f9d891"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信待機  <br /></td></tr>
-<tr class="separator:a310019aae704debea7ceb85a53f9d891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72124dc75dc2385743829403a7580ca4" id="r_a72124dc75dc2385743829403a7580ca4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWioCellularTcpClient2.html#a72124dc75dc2385743829403a7580ca4">receive</a> (void *data, size_t dataSize, size_t *readDataSize)</td></tr>
 <tr class="memdesc:a72124dc75dc2385743829403a7580ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信  <br /></td></tr>
 <tr class="separator:a72124dc75dc2385743829403a7580ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,8 +248,8 @@ template&lt;typename MODULE &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">関数詳解</h2>
-<a id="a75fb57d32af026fe7e221047e03675f6" name="a75fb57d32af026fe7e221047e03675f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75fb57d32af026fe7e221047e03675f6">&#9670;&#160;</a></span>close()</h2>
+<a id="acc74e8e45c2dfc58b4c4a64a5e1b644f" name="acc74e8e45c2dfc58b4c4a64a5e1b644f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc74e8e45c2dfc58b4c4a64a5e1b644f">&#9670;&#160;</a></span>close()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +260,7 @@ template&lt;typename MODULE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::close </td>
+          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::close </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -278,7 +275,14 @@ template&lt;typename MODULE &gt; </div>
 </div><div class="memdoc">
 
 <p>クローズ </p>
-<p>TCPクライアントをクローズします。 </p>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>成功 </td></tr>
+    <tr><td class="paramname">false</td><td>エラー</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>TCPクライアントをクローズします。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
@@ -342,7 +346,7 @@ template&lt;typename MODULE &gt; </div>
 
 <p>クライアント状態を取得 </p>
 <dl class="section return"><dt>戻り値</dt><dd>クライアント状態。</dd></dl>
-<p>クライアント状態を取得します。 この関数は最後の実行結果（ WioCellularTcpClient2::getLastResult(void) ）に影響を与えません。 </p>
+<p>クライアント状態を取得します。 この関数は最後の実行結果に影響を与えません。 </p>
 
 </div>
 </div>
@@ -404,7 +408,7 @@ template&lt;typename MODULE &gt; </div>
   </table>
   </dd>
 </dl>
-<p>TCPクライアントをオープンします。 エラーのときは負の値を返します。 </p>
+<p>TCPクライアントをオープンします。 エラーのときは負の値を返します。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
@@ -466,7 +470,7 @@ template&lt;typename MODULE &gt; </div>
   </table>
   </dd>
 </dl>
-<p>受信したデータを取得します。 </p>
+<p>受信したデータを取得します。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
@@ -535,7 +539,7 @@ template&lt;typename MODULE &gt; </div>
   </table>
   </dd>
 </dl>
-<p>受信したデータを取得します。 </p>
+<p>受信したデータを取得します。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
@@ -590,7 +594,7 @@ template&lt;typename MODULE &gt; </div>
   </table>
   </dd>
 </dl>
-<p>データを送信します。 </p>
+<p>データを送信します。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
@@ -634,51 +638,7 @@ template&lt;typename MODULE &gt; </div>
   </table>
   </dd>
 </dl>
-<p>TCPクライアントの接続完了を待機します。 永久に待機したいときはtimeoutに-1を指定します。 </p>
-
-</div>
-</div>
-<a id="a310019aae704debea7ceb85a53f9d891" name="a310019aae704debea7ceb85a53f9d891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a310019aae704debea7ceb85a53f9d891">&#9670;&#160;</a></span>waitForReceive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename MODULE &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classWioCellularTcpClient2.html">WioCellularTcpClient2</a>&lt; MODULE &gt;::waitForReceive </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>timeout</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>受信待機 </p>
-<dl class="params"><dt>引数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>タイムアウト時間[ミリ秒]。 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>戻り値</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">true</td><td>受信有り？ </td></tr>
-    <tr><td class="paramname">false</td><td>タイムアウトもしくはクローズ中</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>データの受信を待機します。 trueを返したときは受信データがある可能性を示します。受信データが必ずあるわけではありません。 </p>
+<p>TCPクライアントの接続完了を待機します。 永久に待機したいときはtimeoutに-1を指定します。 エラーの詳細をgetLastResult()で取得できます。 </p>
 
 </div>
 </div>
