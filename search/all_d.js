@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ok_0',['Ok',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4aa60852f204ed8028c1c58808b746d115',1,'WioCellularResult.hpp']]],
-  ['open_1',['open',['../classWioCellularTcpClient2.html#a606725ed3ed3b7fe4a901f7f9da7fa92',1,'WioCellularTcpClient2']]],
+  ['open_1',['open',['../classWioCellularTcpClient2.html#a278775f366e8fb192ce29f48e5313911',1,'WioCellularTcpClient2']]],
   ['opened_2',['Opened',['../classWioCellularTcpClient2.html#a60439c3da4b63ad0001e3fe82699c77ba1a11b1adc359c03db0ca798a00e2632c',1,'WioCellularTcpClient2']]],
   ['openerror_3',['OpenError',['../WioCellularResult_8hpp.html#ab15d5953bed9055c90c0f06f30e1daf4ac51a07a6d1b3c8609dc095cc4d540e23',1,'WioCellularResult.hpp']]],
   ['opensocket_4',['openSocket',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a06e6c3d5a27fcbd0bcb7751fe188e8d2',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands']]],
