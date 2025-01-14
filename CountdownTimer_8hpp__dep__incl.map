@@ -1,0 +1,17 @@
+<map id="CountdownTimer.hpp" name="CountdownTimer.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,5,301,31"/>
+<area shape="rect" id="Node000002" href="$Bg770aTcpipCommands_8hpp.html" title=" " alt="" coords="5,79,212,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,40,128,81,126,76,189,36"/>
+<area shape="rect" id="Node000004" href="$WioCellularTcpClient2_8hpp.html" title=" " alt="" coords="237,79,429,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,36,316,76,313,81,249,40"/>
+<area shape="rect" id="Node000003" href="$Bg770a_8hpp.html" title=" " alt="" coords="59,152,158,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,118,111,152,106,152,106,118"/>
+<area shape="rect" id="Node000005" href="$WioCellular_8hpp.html" title=" " alt="" coords="227,152,351,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="320,117,298,153,294,150,316,114"/>
+<area shape="rect" id="Node000007" href="$WioCellularTcpClient_8hpp.html" title=" " alt="" coords="247,225,431,251"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="350,115,366,151,367,172,363,193,349,226,344,224,358,192,362,172,361,153,345,117"/>
+<area shape="rect" id="Node000006" href="$WioCellular_8h.html" title=" " alt="" coords="115,225,223,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="259,187,190,227,187,223,256,182"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="299,188,326,224,322,227,295,191"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="329,215,302,179,306,176,333,212"/>
+</map>

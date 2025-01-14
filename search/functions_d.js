@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['read_0',['read',['../classWioCellularTcpClient.html#a34872c0020a93447fa4f8f119c0dac4d',1,'WioCellularTcpClient::read(void)'],['../classWioCellularTcpClient.html#adf83a10a4df65492c244d0470cf21657',1,'WioCellularTcpClient::read(uint8_t *buf, size_t size)'],['../classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#a906bd0c643f65a5bf99ebbbd2bde94fb',1,'wiocellular::module::bg770a::Bg770aInterface::read()'],['../classsuli3_1_1arduino_1_1DigitalInputPin.html#aeb9049761480b6c20d8d55142d8e3500',1,'suli3::arduino::DigitalInputPin::read()'],['../classsuli3_1_1arduino_1_1Uart.html#ae8549e18eb379b6cb72df89515d970e3',1,'suli3::arduino::Uart::read()']]],
+  ['read_0',['read',['../classWioCellularTcpClient.html#adf83a10a4df65492c244d0470cf21657',1,'WioCellularTcpClient::read()'],['../classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#a906bd0c643f65a5bf99ebbbd2bde94fb',1,'wiocellular::module::bg770a::Bg770aInterface::read()'],['../classsuli3_1_1arduino_1_1DigitalInputPin.html#aeb9049761480b6c20d8d55142d8e3500',1,'suli3::arduino::DigitalInputPin::read()'],['../classsuli3_1_1arduino_1_1Uart.html#ae8549e18eb379b6cb72df89515d970e3',1,'suli3::arduino::Uart::read()'],['../classWioCellularTcpClient.html#a34872c0020a93447fa4f8f119c0dac4d',1,'WioCellularTcpClient::read()']]],
   ['readbinary_1',['readBinary',['../classwiocellular_1_1module_1_1at__client_1_1AtClient.html#ab2691bbe636837b0d3e2a6117e74ca08',1,'wiocellular::module::at_client::AtClient']]],
   ['readbinarydiscard_2',['readBinaryDiscard',['../classwiocellular_1_1module_1_1at__client_1_1AtClient.html#a41d4ff97dc85187aa970a60bb5f17105',1,'wiocellular::module::at_client::AtClient']]],
   ['readresponse_3',['readResponse',['../classwiocellular_1_1module_1_1at__client_1_1AtClient.html#a8277b704fabb4f1d9b65bc0661efc3ae',1,'wiocellular::module::at_client::AtClient']]],
@@ -9,5 +9,6 @@ var searchData=
   ['receivesocket2_6',['receiveSocket2',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands2.html#a1141bba7e71dc5f8be067b2f7a675e57',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands2']]],
   ['registerurchandler_7',['registerUrcHandler',['../classwiocellular_1_1module_1_1at__client_1_1AtClient.html#a4a2d837d9f752c316747b1b9b7c200c0',1,'wiocellular::module::at_client::AtClient']]],
   ['registerurchandler2_8',['registerUrcHandler2',['../classwiocellular_1_1module_1_1at__client_1_1AtClient.html#a02d14c0c0918df7ff61a71999c1c4526',1,'wiocellular::module::at_client::AtClient']]],
-  ['reset_9',['reset',['../classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#a21f07c70549f8c016f325b4b771658b6',1,'wiocellular::module::bg770a::Bg770aInterface']]]
+  ['remaining_9',['remaining',['../classwiocellular_1_1internal_1_1CountdownTimer.html#a013a301e19909f94a056de479f5bdbb5',1,'wiocellular::internal::CountdownTimer']]],
+  ['reset_10',['reset',['../classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#a21f07c70549f8c016f325b4b771658b6',1,'wiocellular::module::bg770a::Bg770aInterface']]]
 ];

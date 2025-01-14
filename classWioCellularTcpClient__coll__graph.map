@@ -1,7 +1,5 @@
 <map id="WioCellularTcpClient&lt; MODULE &gt;" name="WioCellularTcpClient&lt; MODULE &gt;">
-<area shape="rect" id="Node000001" title="TCPクライアント" alt="" coords="28,108,184,148"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,65,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,48,95,106,91,109,49,51"/>
-<area shape="rect" id="Node000003" href="$classWioCellularTcpClient2.html" title=" " alt="" coords="89,5,264,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,58,121,109,117,106,153,55"/>
+<area shape="rect" id="Node000001" title="TCPクライアント" alt="" coords="5,79,161,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="53,5,113,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
 </map>
