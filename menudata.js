@@ -83,4 +83,5 @@ var menudata={children:[
 {text:"ファイルメンバ",url:"globals.html",children:[
 {text:"全て",url:"globals.html"},
 {text:"関数",url:"globals_func.html"},
+{text:"型定義",url:"globals_type.html"},
 {text:"列挙型",url:"globals_enum.html"}]}]}]}

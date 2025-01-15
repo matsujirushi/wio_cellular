@@ -4,7 +4,7 @@ var searchData=
   ['getimei_1',['getIMEI',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aGeneralCommands.html#a22379072062a89d7b995eee7673fc600',1,'wiocellular::module::bg770a::commands::Bg770aGeneralCommands']]],
   ['getimsi_2',['getIMSI',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aSimRelatedCommands.html#a67f9bf1ece9b9c166f8182ce9d35312f',1,'wiocellular::module::bg770a::commands::Bg770aSimRelatedCommands']]],
   ['getinterface_3',['getInterface',['../classwiocellular_1_1module_1_1bg770a_1_1Bg770a.html#a5f1b344bb22f5914ddeba53a572ff05c',1,'wiocellular::module::bg770a::Bg770a']]],
-  ['getlastresult_4',['getLastResult',['../classWioCellularTcpClient2.html#a332a4d6aa670460ea9b8ca63e7498461',1,'WioCellularTcpClient2']]],
+  ['getlastresult_4',['getLastResult',['../classwiocellular_1_1client_1_1WioCellularTcpClient2.html#a81468cf20bb60ee93e86df46c55de47d',1,'wiocellular::client::WioCellularTcpClient2']]],
   ['getmodeminfo_5',['getModemInfo',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aGeneralCommands.html#a86ebe486e08b45dcf7f08f30b4cf11f5',1,'wiocellular::module::bg770a::commands::Bg770aGeneralCommands']]],
   ['getnetworkstate_6',['getNetworkState',['../classwiocellular_1_1network_1_1Bg770aNetwork.html#a1ae5e9b936a9807bd0421d37a39e58e6',1,'wiocellular::network::Bg770aNetwork']]],
   ['getoperator_7',['getOperator',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aNetworkServiceCommands.html#acd94de9cd1fcc86c0e19094e1619db9b',1,'wiocellular::module::bg770a::commands::Bg770aNetworkServiceCommands']]],
@@ -25,5 +25,5 @@ var searchData=
   ['getsocketreceiveavailable_22',['getSocketReceiveAvailable',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a14f530a821fb44847398666a30b017ee',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands']]],
   ['getsocketstatus_23',['getSocketStatus',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#aba5c579c655f3355fe4629a91fc38aea',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands']]],
   ['getsocketunusedconnectid_24',['getSocketUnusedConnectId',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#a87edd975a3ecfc07b6763bdc4e4bcc57',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands']]],
-  ['getstate_25',['getState',['../classWioCellularTcpClient2.html#a5e4f5a63ddab07377bdb89fde6e46b93',1,'WioCellularTcpClient2']]]
+  ['getstate_25',['getState',['../classwiocellular_1_1client_1_1WioCellularTcpClient2.html#ace62d9496a967b8434d472ded484304d',1,'wiocellular::client::WioCellularTcpClient2']]]
 ];

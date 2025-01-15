@@ -12,5 +12,5 @@ var searchData=
   ['atparameterparser_9',['atparameterparser',['../classwiocellular_1_1module_1_1at__client_1_1AtParameterParser.html',1,'wiocellular::module::at_client::AtParameterParser'],['../classwiocellular_1_1module_1_1at__client_1_1AtParameterParser.html#aa2fbaa48784427f20499788a3b00ac4e',1,'wiocellular::module::at_client::AtParameterParser::AtParameterParser()']]],
   ['atparameterparser_2ehpp_10',['AtParameterParser.hpp',['../AtParameterParser_8hpp.html',1,'']]],
   ['atport_11',['atPort',['../structwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands_1_1SocketStatus.html#a480970a76b05531bd790c2e0b78bde11',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands::SocketStatus']]],
-  ['available_12',['available',['../classWioCellularTcpClient.html#aac2300e4fd1139d981d9e707f97041d3',1,'WioCellularTcpClient']]]
+  ['available_12',['available',['../classWioCellularArduinoTcpClient.html#a7898079d7839ec849f1c25220f10cf86',1,'WioCellularArduinoTcpClient']]]
 ];

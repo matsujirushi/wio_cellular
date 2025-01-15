@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['send_0',['send',['../classWioCellularTcpClient2.html#a61a3e29933b06ca885adc979a2304637',1,'WioCellularTcpClient2']]],
+  ['send_0',['send',['../classwiocellular_1_1client_1_1WioCellularTcpClient2.html#a3630868ad842998d644a4ec0fb5c2972',1,'wiocellular::client::WioCellularTcpClient2']]],
   ['sendcommand_1',['sendCommand',['../classwiocellular_1_1module_1_1bg770a_1_1Bg770a.html#a444681246a2f60ef86011d0517c64399',1,'wiocellular::module::bg770a::Bg770a']]],
   ['sendsocket_2',['sendsocket',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#acf200cbe77ef470769d7ce6a76ecdd94',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands::sendSocket(int connectId, const void *data, size_t dataSize)'],['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands.html#adabb00739d09ce6d89ec2a8e20680361',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands::sendSocket(int connectId, const std::string &amp;data)']]],
   ['sendsocket2_3',['sendSocket2',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands2.html#a399a25f3b53cda3ac10f0971a1e294c5',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands2']]],
-  ['setconnectiontimeout_4',['setConnectionTimeout',['../classWioCellularTcpClient.html#a28b7a5991664de0a1fef68ad130791a2',1,'WioCellularTcpClient']]],
+  ['setconnectiontimeout_4',['setConnectionTimeout',['../classWioCellularArduinoTcpClient.html#ab6eefa4908cb050bc7a11549dea983af',1,'WioCellularArduinoTcpClient']]],
   ['setedrx_5',['setEdrx',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aNetworkServiceCommands.html#a356ddae9b89874358476b3786553b74c',1,'wiocellular::module::bg770a::commands::Bg770aNetworkServiceCommands']]],
   ['setepsnetworkregistrationstatusurc_6',['setEpsNetworkRegistrationStatusUrc',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands.html#a0d86ce6932bb51159055c727baf63cc3',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands']]],
   ['setpdpcontext_7',['setPdpContext',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aPacketDomainCommands.html#a841b4e1dd164cc3383c465032e42588f',1,'wiocellular::module::bg770a::commands::Bg770aPacketDomainCommands']]],
@@ -16,5 +16,5 @@ var searchData=
   ['setsearchfrequencyband_13',['setSearchFrequencyBand',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aExtendedConfigurationCommands.html#ac97a8ee17edaf52a0200fb4c7b7e9fd1',1,'wiocellular::module::bg770a::commands::Bg770aExtendedConfigurationCommands']]],
   ['size_14',['size',['../classwiocellular_1_1module_1_1at__client_1_1AtParameterParser.html#a767cf58c747565c121d1a98b23d3fa39',1,'wiocellular::module::at_client::AtParameterParser']]],
   ['sleep_15',['sleep',['../classwiocellular_1_1module_1_1bg770a_1_1Bg770aInterface.html#ae4b85ba28c9d7c7b925a4032ad0a69ef',1,'wiocellular::module::bg770a::Bg770aInterface']]],
-  ['stop_16',['stop',['../classWioCellularTcpClient.html#ae202a55f40f130f9e8632205f51b0dc7',1,'WioCellularTcpClient']]]
+  ['stop_16',['stop',['../classWioCellularArduinoTcpClient.html#a330a9ce57153aa98f26584d243c68953',1,'WioCellularArduinoTcpClient']]]
 ];
