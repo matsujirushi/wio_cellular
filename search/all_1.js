@@ -32,5 +32,6 @@ var searchData=
   ['bg770atcpipcommands2_29',['bg770atcpipcommands2',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands2.html',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands2&lt; MODULE &gt;'],['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands2.html#a7504c8fb4840e3500979121a3bd4bff8',1,'wiocellular::module::bg770a::commands::Bg770aTcpipCommands2::Bg770aTcpipCommands2()']]],
   ['bg770atcpipcommands2_2ehpp_30',['Bg770aTcpipCommands2.hpp',['../Bg770aTcpipCommands2_8hpp.html',1,'']]],
   ['bg770atcpipcommands2_3c_20bg770a_3c_20interface_20_3e_20_3e_31',['Bg770aTcpipCommands2&lt; Bg770a&lt; INTERFACE &gt; &gt;',['../classwiocellular_1_1module_1_1bg770a_1_1commands_1_1Bg770aTcpipCommands2.html',1,'wiocellular::module::bg770a::commands']]],
-  ['blockinfo_32',['BlockInfo',['../structwiocellular_1_1component_1_1nonvolatilememory_1_1NonVolatileBlockQueue_1_1BlockInfo.html',1,'wiocellular::component::nonvolatilememory::NonVolatileBlockQueue']]]
+  ['blockinfo_32',['BlockInfo',['../structwiocellular_1_1component_1_1nonvolatilememory_1_1NonVolatileBlockQueue_1_1BlockInfo.html',1,'wiocellular::component::nonvolatilememory::NonVolatileBlockQueue']]],
+  ['bootloader_5fregion_5fstart_33',['BOOTLOADER_REGION_START',['../DeviceFirmwareUpgrade_8cpp.html#a86b4872454e09cda5b4156b2f9f5f689',1,'DeviceFirmwareUpgrade.cpp']]]
 ];
